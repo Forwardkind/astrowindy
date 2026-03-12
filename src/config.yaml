@@ -1,6 +1,6 @@
 site:
   name: Forwardkind
-  site: 'https://astrowindy-fk.netlify.app/'
+  site: 'https://forwardkind.com'
   base: '/'
   trailingSlash: false
 
@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: G-646LZJP1NR
 
 ui:
   theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
