@@ -6,12 +6,12 @@ export const headerData = {
       text: 'Home',
       href: '/',
     },
-    {
-      text: 'Contact',
-      href: getPermalink('/contact'),
-    },
+    // {
+    //  text: 'Contact',
+    //  href: getPermalink('/contact'),
+    //},
   ],
-  actions: [{ text: 'Subscribe', href: 'https://github.com/arthelokyo/astrowind', icon:'tabler:mail', target: '_blank' }],
+  actions: [{ text: 'Subscribe', href: '/#cta2', icon:'tabler:mail' }],
 };
 
 export const footerData = {
@@ -38,7 +38,7 @@ export const footerData = {
       title: '',
       links: [
         { text: 'Home', href: '/' },
-        { text: 'Contact', href: '/contact' },
+        // { text: 'Contact', href: '/contact' },
       ],
     },
   ],
@@ -47,8 +47,8 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/forwardkind/' },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Forwardkind' },
+     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/forwardkind/', target:'_blank' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Forwardkind', target:'_blank' },
   ],
   footNote: `
     &#169; 2025-2026 Forwardkind Cooperative
