@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 
-// import Testimonials from '~/components/widgets/Testimonials.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
 import CallToAction2 from '~/components/widgets/CallToAction2.astro';
 
 import Features from '~/components/widgets/Features.astro';
@@ -73,7 +73,112 @@ const metadata = {
       },
     ]}
   />
-  
+
+  <Testimonials
+    title="Meet the FAM"
+    subtitle="Forwardkind Cooperative is made possible by generous volunteer advisory members who share our belief in expanding access to transformational work while amplifying the collective impact of purpose-driven people."
+    testimonials={[
+      {
+        testimonial: '',
+        name: 'Christine Walsh',
+        job: 'Steamboat Springs, CO',
+        image: {
+          src: '~/assets/images/christine-walsh.jpg',
+          alt: 'Christine Walsh Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Paul Cohen',
+        job: 'Boulder, CO',
+        image: {
+          src: '~/assets/images/paul-cohen.jpg',
+          alt: 'Paul Cohen Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Amanda Eldridge',
+        job: 'Denver, CO',
+        image: {
+          src: '~/assets/images/amanda-eldridge.jpeg',
+          alt: 'Amanda Eldridge Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Ken Sagendorf',
+        job: 'Denver, CO',
+        image: {
+          src: '~/assets/images/ken-sagendorf.jpg',
+          alt: 'Ken Sagendorf Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Christine Louden',
+        job: 'Trinidad, CO',
+        image: {
+          src: '~/assets/images/christine-louden.jpg',
+          alt: 'Christine Louden Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Thayer Hirsh',
+        job: 'Frisco, CO',
+        image: {
+          src: '~/assets/images/thayer-hirsh.png',
+          alt: 'Thayer Hirsh Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Heidi Steltzer',
+        job: 'Durango, CO',
+        image: {
+          src: '~/assets/images/heidi-steltzer.png',
+          alt: 'Heidi Steltzer Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Joze Petrich',
+        job: 'Trinidad, CO',
+        image: {
+          src: '~/assets/images/joze-petrich.png',
+          alt: 'Joze Petrich Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Thedo Remmelink',
+        job: 'Steamboat Springs, CO',
+        image: {
+          src: '~/assets/images/thedo-remmelink.jpg',
+          alt: 'Thedo Remmelink Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Paula Brown',
+        job: 'Steamboat Springs, CO',
+        image: {
+          src: '~/assets/images/paula-brown.png',
+          alt: 'Paula Brown Image',
+        },
+      },
+      {
+        testimonial: '',
+        name: 'Chris Salter',
+        job: 'Longmont, CO',
+        image: {
+          src: '~/assets/images/chris-salter.jpeg',
+          alt: 'Chris Salter Image',
+        },
+      },
+    ]}
+  />
 
   <CallToAction2 />
 </Layout>
