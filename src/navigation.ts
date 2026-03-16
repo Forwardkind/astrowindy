@@ -38,6 +38,7 @@ export const footerData = {
       title: '',
       links: [
         { text: 'Home', href: '/' },
+        { text: 'Subscribe', href: '/#cta2' },
         // { text: 'Contact', href: '/contact' },
       ],
     },
