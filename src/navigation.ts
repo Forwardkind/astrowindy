@@ -1,4 +1,4 @@
-// import { getPermalink } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -6,10 +6,10 @@ export const headerData = {
       text: 'Home',
       href: '/',
     },
-    // {
-    //  text: 'Contact',
-    //  href: getPermalink('/contact'),
-    //},
+    {
+    text: 'Contact',
+    href: getPermalink('/contact'),
+    },
   ],
   actions: [{ text: 'Subscribe', href: '/#cta2', icon:'tabler:mail' }],
 };
@@ -39,7 +39,7 @@ export const footerData = {
       links: [
         { text: 'Home', href: '/' },
         { text: 'Subscribe', href: '/#cta2' },
-        // { text: 'Contact', href: '/contact' },
+        { text: 'Contact', href: '/contact' },
       ],
     },
   ],
